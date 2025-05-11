@@ -12,10 +12,10 @@ const Navbar = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><a>Item 1</a></li>
-                        <li><a>Item 2</a></li>
-                        <li><a>Item 3</a></li>
-                        <li><a>Item 4</a></li>
+                        <li><a>Home</a></li>
+                        <li><a>My-Bookings</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
                     </ul>
                     </div>
                     <a className="btn btn-ghost text-xl font-bold"><img className='h-[30px]' src="../../../public/C002-assets/logo.png" alt="" /> Law.BD</a>
