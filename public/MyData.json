@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Awlad Hossain",
+    "specialization": "Criminal Expert",
+    "licenseNo": "BD12451254",
+    "availability": ["Sunday", "Monday", "Tuesday"],
+    "consultationFee": 1500,
+    "experience": "5+ Years",
+    "image": "https://randomuser.me/api/portraits/men/11.jpg"
+  },
+  {
+    "name": "Sharmin Akter",
+    "specialization": "Family Law",
+    "licenseNo": "BD11224589",
+    "availability": ["Tuesday", "Thursday", "Friday"],
+    "consultationFee": 1200,
+    "experience": "3+ Years",
+    "image": "https://randomuser.me/api/portraits/women/21.jpg"
+  },
+  {
+    "name": "Kawsar Ahmed",
+    "specialization": "Corporate Law",
+    "licenseNo": "BD11997763",
+    "availability": ["Sunday", "Wednesday", "Thursday", "Saturday"],
+    "consultationFee": 2000,
+    "experience": "7+ Years",
+    "image": "https://randomuser.me/api/portraits/men/31.jpg"
+  },
+  {
+    "name": "Nusrat Jahan",
+    "specialization": "Civil Litigation",
+    "licenseNo": "BD10022344",
+    "availability": ["Monday", "Thursday", "Friday"],
+    "consultationFee": 1800,
+    "experience": "6+ Years",
+    "image": "https://randomuser.me/api/portraits/women/41.jpg"
+  },
+  {
+    "name": "Tanvir Hasan",
+    "specialization": "Immigration Law",
+    "licenseNo": "BD12233567",
+    "availability": ["Saturday", "Tuesday", "Wednesday"],
+    "consultationFee": 1600,
+    "experience": "4+ Years",
+    "image": "https://randomuser.me/api/portraits/men/51.jpg"
+  },
+  {
+    "name": "Farzana Haque",
+    "specialization": "Divorce & Custody",
+    "licenseNo": "BD10234567",
+    "availability": ["Wednesday", "Friday", "Sunday"],
+    "consultationFee": 1400,
+    "experience": "5+ Years",
+    "image": "https://randomuser.me/api/portraits/women/61.jpg"
+  },
+  {
+    "name": "Raihan Kabir",
+    "specialization": "Labor Law",
+    "licenseNo": "BD12673490",
+    "availability": ["Sunday", "Thursday", "Saturday"],
+    "consultationFee": 1300,
+    "experience": "6+ Years",
+    "image": "https://randomuser.me/api/portraits/men/71.jpg"
+  },
+  {
+    "name": "Jannatul Ferdous",
+    "specialization": "Real Estate Law",
+    "licenseNo": "BD10998812",
+    "availability": ["Monday", "Saturday", "Wednesday"],
+    "consultationFee": 1500,
+    "experience": "5+ Years",
+    "image": "https://randomuser.me/api/portraits/women/81.jpg"
+  },
+  {
+    "name": "Mahmudul Hasan",
+    "specialization": "Tax Law",
+    "licenseNo": "BD10123456",
+    "availability": ["Tuesday", "Friday", "Sunday", "Thursday"],
+    "consultationFee": 1700,
+    "experience": "8+ Years",
+    "image": "https://randomuser.me/api/portraits/men/91.jpg"
+  },
+  {
+    "name": "Salma Khatun",
+    "specialization": "Consumer Protection",
+    "licenseNo": "BD12245678",
+    "availability": ["Wednesday", "Sunday", "Monday"],
+    "consultationFee": 1350,
+    "experience": "4+ Years",
+    "image": "https://randomuser.me/api/portraits/women/12.jpg"
+  }
+]

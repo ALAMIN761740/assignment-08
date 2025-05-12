@@ -3,16 +3,16 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
-                <h1><a className="btn btn-ghost text-xl font-bold"><img className='h-[30px]' src="../../../public/C002-assets/logo.png" alt="" /> Law.BD</a></h1>
-                <nav className="grid grid-flow-col gap-4">
+            <footer className="footer footer-horizontal footer-center bg-black text-base-content  p-10">
+                <h1 className='text-white'><a className="btn btn-ghost text-xl font-bold"><img className='h-[30px]' src="../../../public/C002-assets/logo.png" alt="" /> Law.BD</a></h1>
+                <nav className="grid grid-flow-col gap-4 text-white">
                     <a className="link link-hover">Home</a>
                     <a className="link link-hover">My-Bookings</a>
                     <a className="link link-hover">Blogs</a>
                     <a className="link link-hover">Contact Us</a>
                 </nav>
                 <nav>
-                    <div className="grid grid-flow-col gap-4">
+                    <div className="grid grid-flow-col gap-4 text-white">
                     <a>
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
