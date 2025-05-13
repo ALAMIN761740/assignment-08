@@ -6,7 +6,8 @@
     "availability": ["Sunday", "Monday", "Tuesday"],
     "consultationFee": 1500,
     "experience": "5+ Years",
-    "image": "https://randomuser.me/api/portraits/men/11.jpg"
+    "image": "https://randomuser.me/api/portraits/men/11.jpg",
+    "available": true
   },
   {
     "name": "Sharmin Akter",
@@ -15,7 +16,8 @@
     "availability": ["Tuesday", "Thursday", "Friday"],
     "consultationFee": 1200,
     "experience": "3+ Years",
-    "image": "https://randomuser.me/api/portraits/women/21.jpg"
+    "image": "https://randomuser.me/api/portraits/women/21.jpg",
+    "available": true
   },
   {
     "name": "Kawsar Ahmed",
@@ -24,7 +26,8 @@
     "availability": ["Sunday", "Wednesday", "Thursday", "Saturday"],
     "consultationFee": 2000,
     "experience": "7+ Years",
-    "image": "https://randomuser.me/api/portraits/men/31.jpg"
+    "image": "https://randomuser.me/api/portraits/men/31.jpg",
+    "available": true
   },
   {
     "name": "Nusrat Jahan",
@@ -33,7 +36,8 @@
     "availability": ["Monday", "Thursday", "Friday"],
     "consultationFee": 1800,
     "experience": "6+ Years",
-    "image": "https://randomuser.me/api/portraits/women/41.jpg"
+    "image": "https://randomuser.me/api/portraits/women/41.jpg",
+    "available": true
   },
   {
     "name": "Tanvir Hasan",
@@ -42,7 +46,8 @@
     "availability": ["Saturday", "Tuesday", "Wednesday"],
     "consultationFee": 1600,
     "experience": "4+ Years",
-    "image": "https://randomuser.me/api/portraits/men/51.jpg"
+    "image": "https://randomuser.me/api/portraits/men/51.jpg",
+    "available": true
   },
   {
     "name": "Farzana Haque",
@@ -51,7 +56,8 @@
     "availability": ["Wednesday", "Friday", "Sunday"],
     "consultationFee": 1400,
     "experience": "5+ Years",
-    "image": "https://randomuser.me/api/portraits/women/61.jpg"
+    "image": "https://randomuser.me/api/portraits/women/61.jpg",
+    "available": false
   },
   {
     "name": "Raihan Kabir",
@@ -60,7 +66,8 @@
     "availability": ["Sunday", "Thursday", "Saturday"],
     "consultationFee": 1300,
     "experience": "6+ Years",
-    "image": "https://randomuser.me/api/portraits/men/71.jpg"
+    "image": "https://randomuser.me/api/portraits/men/71.jpg",
+    "available": false
   },
   {
     "name": "Jannatul Ferdous",
@@ -69,7 +76,8 @@
     "availability": ["Monday", "Saturday", "Wednesday"],
     "consultationFee": 1500,
     "experience": "5+ Years",
-    "image": "https://randomuser.me/api/portraits/women/81.jpg"
+    "image": "https://randomuser.me/api/portraits/women/81.jpg",
+    "available": true
   },
   {
     "name": "Mahmudul Hasan",
@@ -78,7 +86,8 @@
     "availability": ["Tuesday", "Friday", "Sunday", "Thursday"],
     "consultationFee": 1700,
     "experience": "8+ Years",
-    "image": "https://randomuser.me/api/portraits/men/91.jpg"
+    "image": "https://randomuser.me/api/portraits/men/91.jpg",
+    "available": false
   },
   {
     "name": "Salma Khatun",
@@ -86,7 +95,8 @@
     "licenseNo": "BD12245678",
     "availability": ["Wednesday", "Sunday", "Monday"],
     "consultationFee": 1350,
-    "experience": "4+ Years",
-    "image": "https://randomuser.me/api/portraits/women/12.jpg"
+    "experience": "4+ Years ",
+    "image": "https://randomuser.me/api/portraits/women/12.jpg",
+    "available": true
   }
 ]
