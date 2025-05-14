@@ -1,6 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Lawyer = ({singleLawyer}) => {
+    const navigate = useNavigate();
+    const handleDetailsClick = () => {
+    navigate(`/lawyer/${licenseNo}`);
+};
 
     const {name,specialization,licenseNo,availability,consultationFee,experience,image,available}=singleLawyer;
     return (
@@ -26,7 +31,8 @@ const Lawyer = ({singleLawyer}) => {
                     </div>
                     
                     <div className="card-actions">
-                    <button className="btn btn-block text-blue-500">View Details</button>
+                        <button onClick={handleDetailsClick} className="btn btn-block text-blue-500">
+                        View Details</button>
                     </div>
                 </div>
             </div>
