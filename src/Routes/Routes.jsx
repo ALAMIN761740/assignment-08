@@ -8,6 +8,8 @@ import Root from '../Pages/Roots/Root';
 import Errorpages from '../Pages/Errorpages/Errorpages';
 import Home from '../Pages/Home/Home';
 import LawyerDetails from '../Pages/LawyerDetails/LawyerDetails';
+import Bookings from '../Pages/Bookings/Bookings';
+import Blogs from '../Pages/Blogs';
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +27,14 @@ export const router = createBrowserRouter([
         path: "/lawyer/:id",
         element: <LawyerDetails></LawyerDetails>,
       },
+      {
+        path: "/bookings",
+        element: <Bookings></Bookings>
+      },
+      {
+        path:"/Blogs",
+        element: <Blogs></Blogs>,
+      }
     ]
   },
 ]);

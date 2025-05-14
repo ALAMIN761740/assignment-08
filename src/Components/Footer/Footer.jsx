@@ -1,54 +1,88 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
         <div>
-            <footer className="footer footer-horizontal footer-center bg-black text-base-content  p-10">
-                <h1 className='text-white'><a className="btn btn-ghost text-xl font-bold"><img className='h-[30px]' src="../../../public/C002-assets/logo.png" alt="" /> Law.BD</a></h1>
+            <footer className="footer footer-horizontal footer-center bg-black text-base-content p-10">
+                <h1 className='text-white'>
+                    <Link to="/" className="btn btn-ghost text-xl font-bold">
+                        <img className='h-[30px]' src="/C002-assets/logo.png" alt="Logo" />
+                        Law.BD
+                    </Link>
+                </h1>
+
                 <nav className="grid grid-flow-col gap-4 text-white">
-                    <a className="link link-hover">Home</a>
-                    <a className="link link-hover">My-Bookings</a>
-                    <a className="link link-hover">Blogs</a>
+                    <Link to="/" className="link link-hover">Home</Link>
+                    <Link to="/bookings" className="link link-hover">Bookings</Link>
+                    <Link to="/blogs" className="link link-hover">Blogs</Link>
                     <a className="link link-hover">Contact Us</a>
                 </nav>
+
+               
+
+
                 <nav>
-                    <div className="grid grid-flow-col gap-4 text-white">
-                    <a>
+                    <div className="grid grid-flow-col gap-5 text-white">
+                        <a
+                        href="https://www.facebook.com/aal.amin.7503"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Facebook"
+                        >
                         <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        className="fill-current">
-                        <path
-                            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            className="fill-current"
+                        >
+                            <path d="M9 8H6v4h3v12h5V12h4l1-4h-5V5.5c0-.8.3-1.5 1.5-1.5H20V0h-3.5C13 0 11 2 11 5v3z" />
                         </svg>
-                    </a>
-                    <a>
+                        </a>
+
+                        
+
+
+                        <a
+                        href="https://www.youtube.com/" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="YouTube"
+                        >
                         <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        className="fill-current">
-                        <path
-                            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            className="fill-current"
+                        >
+                            <path d="M19.615 3.184c-3.6-.246-11.63-.245-15.23 0C.49 3.45.03 5.81 0 12c.03 6.18.49 8.55 4.385 8.816 3.6.245 11.63.246 15.23 0 3.9-.27 4.36-2.63 4.385-8.816-.03-6.19-.49-8.55-4.385-8.816zM9 16.001v-8l8 4-8 4z" />
                         </svg>
-                    </a>
-                    <a>
+                        </a>
+
+                        
+
+
+                        <a
+                        href="https://github.com/ALAMIN761740"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub"
+                        >
                         <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        className="fill-current">
-                        <path
-                            d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            className="fill-current"
+                        >
+                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.39.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.35-1.76-1.35-1.76-1.1-.75.08-.73.08-.73 1.21.08 1.84 1.25 1.84 1.25 1.08 1.84 2.82 1.31 3.51 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.91 0-1.3.47-2.36 1.24-3.19-.12-.3-.54-1.52.12-3.17 0 0 1-.32 3.3 1.22a11.4 11.4 0 0 1 6 0C17 4.48 18 4.8 18 4.8c.66 1.65.24 2.87.12 3.17.77.83 1.24 1.89 1.24 3.19 0 4.59-2.81 5.61-5.48 5.9.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.82.58A12.01 12.01 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
                         </svg>
-                    </a>
+                        </a>
                     </div>
-                </nav>
-                
+                    </nav>
+
             </footer>
         </div>
     );
