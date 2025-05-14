@@ -1,0 +1,26 @@
+[
+  {
+  "id": 1,
+  "icon": "../../../public/C002-assets/success-doctor.png",
+  "number": 199,
+  "title": "Total Lawyer"
+  },
+  {
+    "id": 2,
+    "icon": "../../../public/C002-assets/success-review.png",
+    "number": 467,
+    "title": "Total Reviews"
+  },
+  {
+    "id": 3,
+    "icon": "../../../public/C002-assets/success-patients.png",
+    "number": 1900,
+    "title": "Cases Initiated"
+  },
+  {
+    "id": 4,
+    "icon": "../../../public/C002-assets/success-staffs.png",
+    "number": 300,
+    "title": "Total Stuffs"
+  }
+]
