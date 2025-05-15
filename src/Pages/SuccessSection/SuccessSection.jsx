@@ -2,10 +2,10 @@ import React from 'react';
 import CountUp from 'react-countup';
 import data from './successData.json';
 
-// react-icons থেকে সব আইকন import করো
+
 import { FaUserTie, FaGavel, FaBriefcase, FaSmile } from 'react-icons/fa';
 
-// আইকন নাম অনুযায়ী কম্পোনেন্ট return করবে
+
 const iconMap = {
   FaUserTie: FaUserTie,
   FaGavel: FaGavel,
