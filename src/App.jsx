@@ -1,32 +1,27 @@
-
-
 import React from 'react';
+import { RouterProvider } from 'react-router-dom';
+import { LoadingProvider } from './Components/Loader/LoadingContext';
+import { router } from './Routes/Routes';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// অন্য component গুলো import করো
-
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        {/* তোমার routes এখানে */}
-      </Routes>
-
-      {/* ✅ ToastContainer একবারই ব্যবহার করতে হয় */}
+    <LoadingProvider>
+      <RouterProvider router={router} fallbackElement={<p>Loading...</p>} />
       <ToastContainer
         position="top-right"
         autoClose={3000}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick
+        rtl={false}
         pauseOnFocusLoss
         draggable
         pauseOnHover
         theme="light"
       />
-    </BrowserRouter>
+    </LoadingProvider>
   );
 }
 

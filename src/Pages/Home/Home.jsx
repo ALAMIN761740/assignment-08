@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from '../../Components/Banner/Banner';
-import { useLoaderData } from 'react-router'; 
+import { useLoaderData } from 'react-router-dom';
 import AllLawyers from '../AllLawyers/AllLawyers';  
 import SuccessSection from '../SuccessSection/SuccessSection';  
 

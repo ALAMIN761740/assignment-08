@@ -19,7 +19,7 @@ const Bookings = () => {
     setAppointments(updated);
     localStorage.setItem('appointments', JSON.stringify(updated));
 
-    toast.info(`Appointment with ${cancelledLawyer.name} cancelled.`);
+    toast.info(`${cancelledLawyer.name} এর অ্যাপয়েন্টমেন্ট বাতিল করা হয়েছে।`);
   };
 
   const chartData = appointments.map(lawyer => ({

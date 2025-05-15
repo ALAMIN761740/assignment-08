@@ -2,9 +2,13 @@ import React, { Suspense, useState } from 'react';
 import Lawyer from '../Lawyer/Lawyer';
 
 const AllLawyers = ({ data }) => {
+  console.log("data inside AllLawyers:", data);
+
   const [showAll, setShowAll] = useState(false);
 
-
+if (!Array.isArray(data)) {
+  return <p className="text-center text-red-500">Lawyer data is not available or not in correct format.</p>;
+}
   const visibleLawyers = showAll ? data : data.slice(0, 6);
 
   return (

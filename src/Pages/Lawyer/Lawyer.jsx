@@ -4,10 +4,11 @@ import { useNavigate } from 'react-router-dom';
 const Lawyer = ({singleLawyer}) => {
     const navigate = useNavigate();
     const handleDetailsClick = () => {
-    navigate(`/lawyer/${licenseNo}`);
+    navigate(`/LawyerDetails/${licenseNo}`);
+
 };
 
-    const {name,specialization,licenseNo,availability,consultationFee,experience,image,available}=singleLawyer;
+    const {name,specialization,licenseNo,experience,image,available}=singleLawyer;
     return (
         <div>
             <div className="card bg-base-100  shadow-sm grid grid-cols-3 border-1  border-gray-400">

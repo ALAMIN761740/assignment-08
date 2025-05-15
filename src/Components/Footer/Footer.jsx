@@ -20,6 +20,8 @@ const Footer = () => {
                 </nav>
 
                
+<div className='w-full my-4 border-t-2 border-dashed border-gray-300'></div>
+
 
 
                 <nav>

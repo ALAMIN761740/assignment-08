@@ -1,9 +1,4 @@
-import React from 'react';
-
-import {
-  createBrowserRouter,
-  
-} from "react-router";
+import { createBrowserRouter } from "react-router-dom";
 import Root from '../Pages/Roots/Root';
 import Errorpages from '../Pages/Errorpages/Errorpages';
 import Home from '../Pages/Home/Home';
@@ -14,27 +9,26 @@ import Blogs from '../Pages/Blogs';
 export const router = createBrowserRouter([
   {
     path: "/",
-    Component:Root,
-    errorElement:<Errorpages></Errorpages>,
-    children:[
+    element: <Root />,
+    errorElement: <Errorpages />,
+    children: [
       {
-        index:true,
-        loader:()=>fetch('MyData.json'),
-        path:"/",
-        Component:Home,
+        index: true,
+        loader: () => fetch('/MyData.json'),
+        element: <Home />,
       },
       {
-        path: "/lawyer/:id",
-        element: <LawyerDetails></LawyerDetails>,
+        path: "LawyerDetails/:LicenseNo",
+        element: <LawyerDetails />,
       },
       {
-        path: "/bookings",
-        element: <Bookings></Bookings>
+        path: "bookings",
+        element: <Bookings />,
       },
       {
-        path:"/Blogs",
-        element: <Blogs></Blogs>,
-      }
-    ]
+        path: "blogs",
+        element: <Blogs />,
+      },
+    ],
   },
 ]);
